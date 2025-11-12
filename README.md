@@ -65,8 +65,6 @@ aws dynamodb create-table --table-name tf-locks --attribute-definitions Attribut
 
 --region → Region where the table will be created
 
-git clone https://github.com/bhavukm/terraform-eks-automation.git
-
 cd terraform-eks-automation
 
 Replace all placeholders in the Terraform script files:
